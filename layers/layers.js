@@ -64,8 +64,8 @@ lyr_NevadaCountyBoundary_1.set('fieldImages', {'STATEFP': 'TextEdit', 'COUNTYFP'
 lyr_SuitableArea_2.set('fieldImages', {'APN': 'TextEdit', 'Acres': 'TextEdit', });
 lyr_ParcelBoundary_3.set('fieldImages', {'APN': 'TextEdit', 'Address': 'TextEdit', 'City': 'TextEdit', 'Zip': 'TextEdit', 'Land Value': 'Range', });
 lyr_NevadaCountyBoundary_1.set('fieldLabels', {'STATEFP': 'no label', 'COUNTYFP': 'no label', 'COUNTYNS': 'no label', 'GEOID': 'no label', 'NAME': 'no label', 'NAMELSAD': 'no label', 'LSAD': 'no label', 'CLASSFP': 'no label', 'MTFCC': 'no label', 'CSAFP': 'no label', 'CBSAFP': 'no label', 'METDIVFP': 'no label', 'FUNCSTAT': 'no label', 'ALAND': 'no label', 'AWATER': 'no label', 'INTPTLAT': 'no label', 'INTPTLON': 'no label', });
-lyr_SuitableArea_2.set('fieldLabels', {'APN': 'no label', 'Acres': 'no label', });
-lyr_ParcelBoundary_3.set('fieldLabels', {'APN': 'no label', 'Address': 'no label', 'City': 'no label', 'Zip': 'no label', 'Land Value': 'no label', });
+lyr_SuitableArea_2.set('fieldLabels', {'APN': 'header label', 'Acres': 'header label', });
+lyr_ParcelBoundary_3.set('fieldLabels', {'APN': 'header label', 'Address': 'header label', 'City': 'header label', 'Zip': 'header label', 'Land Value': 'header label', });
 lyr_ParcelBoundary_3.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
